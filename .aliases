@@ -28,6 +28,13 @@ else # OS X `ls`
 	colorflag="-G"
 fi
 
+# Kill notification centre
+alias donotdisturb="launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist"
+# unkill
+alias disturb="launchctl load -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
+"
+
+
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
 

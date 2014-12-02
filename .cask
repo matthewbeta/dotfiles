@@ -24,3 +24,4 @@ installcask transmission
 #installcask ukelele
 installcask virtualbox
 installcask vlc
+installcask colorpicker-scala
