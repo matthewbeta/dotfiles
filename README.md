@@ -1,20 +1,19 @@
 # Dotfiles
 
-## First time
-
-You could do this
+1. Update .extra.changeme with your details,
+1. then:
 
 ````bash
+# To update repo and rsync files to home dir
+source bootrap.sh
+# To install ruby, homebrew, some gems
 source install-deps.sh
+# To install some things with homebrew
 source .brew
+# To install cask and then install some apps
 source .cask
+# To Set some osx defaults and settings
 source .osx
-source bootrap.sh
 
 ````
-
-## updates...
-
-````bash
-source bootrap.sh
-````
+If you need to update anything just run one, some or all again
