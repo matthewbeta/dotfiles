@@ -52,10 +52,8 @@ chmod +x ~/z/z.sh
 # now you can record photobooth videos quickly and they upload to dropbox DURING RECORDING
 # then you grab public URL and send off your video message in a heartbeat.
 
-
 # for the c alias (syntax highlighted cat)
 #sudo easy_install Pygments
-
 
 # chrome canary as default
 # on a mac you can set chrome canary as your default inside of Safari preferences :)
@@ -65,6 +63,3 @@ chmod +x ~/z/z.sh
 sudo gem update --system --no-document
 # Install jekyll
 sudo gem install jekyll
-
-# Set symlink for Sublime Text 2
-ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
