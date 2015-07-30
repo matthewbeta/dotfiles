@@ -9,19 +9,19 @@ function installcask() {
 installcask dropbox
 installcask google-chrome
 installcask google-chrome-canary
-
+installcask firefox
 installcask imagealpha
+installcask alfred
+installcask caffeine
+installcask shiori
+installcask slack
+installcask atom
 installcask gyazo
 installcask onepassword
 installcask imageoptim
 installcask iterm2
-#installcask macvim
-#installcask miro-video-converter
-installcask sublime-text
 installcask the-unarchiver
-#installcask tor-browser
 installcask transmission
-#installcask ukelele
 installcask virtualbox
 installcask vlc
 installcask colorpicker-scala
