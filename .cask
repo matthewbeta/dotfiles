@@ -25,4 +25,5 @@ installcask transmission
 installcask virtualbox
 installcask vlc
 installcask colorpicker-scala
+installcask cheatsheet
 installcask caskroom/homebrew-cask/objektiv

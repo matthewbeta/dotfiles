@@ -21,13 +21,15 @@
 # you need the code CLI tools YOU FOOL.
 #ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 
+#zsh
+\curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
 
 
 # https://github.com/rupa/z
 # z, oh how i love you
-cd
-git clone https://github.com/rupa/z.git
-chmod +x ~/z/z.sh
+#cd
+#git clone https://github.com/rupa/z.git
+#chmod +x ~/z/z.sh
 # also consider moving over your current .z file if possible. it's painful to rebuild :)
 
 # z binary is already referenced from .bash_profile
