@@ -20,6 +20,7 @@
 # homebrew!
 # you need the code CLI tools YOU FOOL.
 #ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #zsh
 \curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
