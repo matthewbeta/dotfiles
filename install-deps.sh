@@ -11,10 +11,8 @@
 #I do this one as it adds dependencies as well
 \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
 
-# https://github.com/isaacs/nave
-# needs npm, obviously.
-# TODO: I think i'd rather curl down the nave.sh, symlink it into /bin and use that for initial node install.
-#npm install -g nave
+# Install NVM
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 
 
 # homebrew!
