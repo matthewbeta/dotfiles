@@ -34,7 +34,9 @@ alias donotdisturb="launchctl unload -w /System/Library/LaunchAgents/com.apple.n
 # unkill
 alias disturb="launchctl load -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
 "
-
+# Turn off autocorrect
+alias dontcorrectme="defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false"
+alias correctme="defaults write -g NSAutomaticSpellingCorrectionEnabled -bool true"
 
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
