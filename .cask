@@ -17,13 +17,14 @@ installcask shiori
 installcask slack
 installcask atom
 installcask gyazo
-installcask onepassword
 installcask imageoptim
 installcask iterm2
+installcask hyperterm
 installcask the-unarchiver
 installcask transmission
 installcask virtualbox
 installcask vlc
 installcask colorpicker-scala
 installcask cheatsheet
+installcask adobe-creative-cloud
 installcask caskroom/homebrew-cask/objektiv

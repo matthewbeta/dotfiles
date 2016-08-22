@@ -15,7 +15,6 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 alias a="atom ."
-alias s="subl ."
 alias o="open"
 alias oo="open ."
 alias git=hub
@@ -28,6 +27,9 @@ if ls --color > /dev/null 2>&1; then # GNU `ls`
 else # OS X `ls`
 	colorflag="-G"
 fi
+
+# use safer npm trash cli https://github.com/sindresorhus/trash-cli instead of rm. Trash puts files in rash rather than permanent delete 
+alias rm=trash
 
 # Kill notification centre
 alias donotdisturb="launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist"
@@ -156,15 +158,8 @@ alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
-# Kill all the tabs in Chrome to free up memory
-# [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
-alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
-
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
-# Reload the shell (i.e. invoke as a login shell)
-#alias reload="exec $SHELL -l"
 
 # Faster npm for europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu"

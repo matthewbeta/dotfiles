@@ -20,3 +20,5 @@ Thumbs.db
 atom/.node-gyp
 atom/compile-cache
 atom/storage
+*.ai
+npm-debug.log
