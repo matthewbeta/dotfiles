@@ -8,8 +8,12 @@ function installcask() {
 
 installcask dropbox
 installcask google-chrome
+installcask google-drive
 installcask google-chrome-canary
 installcask firefox
+installcask gitup
+installcask github
+installcask vagrant
 installcask imagealpha
 installcask alfred
 installcask caffeine

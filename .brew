@@ -48,6 +48,7 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install other useful binaries.
+brew install mas
 brew install dark-mode
 brew install git
 brew install hub

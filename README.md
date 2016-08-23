@@ -1,7 +1,7 @@
 # Dotfiles
 
 1. Update .extra.changeme with your details,
-1. Install the OSX Command Line tools (go get X Code)
+1. Install the OSX Command Line tools ```xcode-select --install``` (or go get X Code)
 1. then:
 
 ````bash
@@ -15,8 +15,11 @@ source .brew
 source .cask
 # To Set some osx defaults and settings
 source .osx
+# Install mac apps (requires brew has run and installed [mas](https://git.io/v6yH3))
+source .macappstore
 # Install global NPM packages
 source .npm
+
 
 ````
 If you need to update anything just run one, some or all again
