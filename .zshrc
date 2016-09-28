@@ -7,6 +7,8 @@ export ZSH=/Users/matthew/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="bullet-train"
 
+/usr/bin/ssh-add -A
+
 # Load the shell dotfiles, and then some:
 # * ~/.mix-extra can be used for other settings you don’t want to commit to your repo.
 for file in ~/.{exports,aliases,extra,functions}; do
