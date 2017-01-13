@@ -58,11 +58,13 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git node npm atom brew brew-cask extract)
+plugins=(git node npm atom brew brew-cask extract zsh-syntax-highlighting)
 
 # User configuration
 
 export PATH="/Users/matthew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH=/Applications/MAMP/Library/bin/:$PATH
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -95,3 +97,6 @@ prompt pure
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+
+export NVM_DIR="/Users/matthew/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

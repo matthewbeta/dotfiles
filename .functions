@@ -318,3 +318,47 @@ gifify() {
     echo "proper usage: gifify <input_movie.mov>. You DO need to include extension."
   fi
 }
+
+# functions to shorten ansible commands from terminal
+
+run-playbook() {
+    cd ansible
+    ansible-playbook -i $1 $2.yml
+    cd ..
+}
+
+# usage: server-setup production
+server-setup() {
+    run-playbook $1 server-setup
+}
+
+# usage: site-setup production
+site-setup() {
+    run-playbook $1 site-setup
+}
+
+# usage: db-pull production
+db-pull() {
+    run-playbook $1 db-pull
+}
+
+# usage: db-push production
+db-push() {
+    run-playbook $1 db-push
+}
+
+# usage: deploy production
+deploy() {
+    run-playbook $1 deploy
+}
+
+
+# usage: assets-pull production
+assets-pull() {
+    run-playbook $1 assets-pull
+}
+
+# usage: assets-push production
+assets-push() {
+    run-playbook $1 assets-push
+}
