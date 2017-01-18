@@ -19,11 +19,11 @@ installcask alfred
 installcask caffeine
 installcask shiori
 installcask slack
+installcask spotify
 installcask atom
 installcask gyazo
 installcask imageoptim
-installcask iterm2
-installcask hyperterm
+installcask hyper
 installcask the-unarchiver
 installcask transmission
 installcask virtualbox

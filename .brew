@@ -56,7 +56,6 @@ brew install imagemagick
 brew install mongodb
 brew install git-lfs
 brew install imagemagick --with-webp
-brew install
 brew install archey
 brew install ansible
 
