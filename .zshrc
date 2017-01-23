@@ -7,6 +7,9 @@ export ZSH=/Users/matthew/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="bullet-train"
 
+# homebrews should always take precedence
+export PATH=/usr/local/bin:$PATH
+
 /usr/bin/ssh-add -A
 
 # Load the shell dotfiles, and then some:
