@@ -11,6 +11,10 @@ alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
+alias vm="cd ~/vm"
+alias ie10="cd ~/vm/ie10 && vagrant up"
+alias ie11="cd ~/vm/ie11 && vagrant up"
+alias edge="cd ~/vm/edge && vagrant up"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -28,7 +32,7 @@ else # OS X `ls`
 	colorflag="-G"
 fi
 
-# use safer npm trash cli https://github.com/sindresorhus/trash-cli instead of rm. Trash puts files in rash rather than permanent delete 
+# use safer npm trash cli https://github.com/sindresorhus/trash-cli instead of rm. Trash puts files in rash rather than permanent delete
 alias rm=trash
 
 # Kill notification centre
