@@ -14,11 +14,11 @@ source .brew
 # To install cask and then install some apps
 source .cask
 # To Set some osx defaults and settings
-source .osx
+source .macos
 # Install mac apps (requires brew has run and installed [mas](https://git.io/v6yH3))
 source .macappstore
 # Install global NPM packages
-source .npm
+source .nodemodules
 
 
 ````
