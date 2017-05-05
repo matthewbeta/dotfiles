@@ -1,13 +1,13 @@
 module.exports={
   "config": {
     "fontSize": 14,
-    "fontFamily": "SF Mono",
+    "fontFamily": "monaco",
     "cursorColor": "rgba(248,28,229,0.75)",
     "cursorShape": "BLOCK",
     "foregroundColor": "#fff",
     "backgroundColor": "#000",
     "borderColor": "#333",
-    "css": "\n      .hyperterm_main {\ntext-rendering: optimizeLegibility;\n      }\n    ",
+    "css": "\n      .hyperterm_main {\n        text-rendering: optimizeLegibility;\n      }\n    ",
     "termCSS": "",
     "padding": "12px 14px",
     "colors": {
@@ -28,7 +28,7 @@ module.exports={
       "lightCyan": "#00ffff",
       "lightWhite": "#ffffff"
     },
-    "shell": ""
+    "shell": "zsh"
   },
   "plugins": [
     "hyperterm-blink",
@@ -36,7 +36,9 @@ module.exports={
     "hyperterm-close-on-left",
     "hyperterm-snazzy",
     "hyperterm-tab-icons",
-    "hyperterm-paste"
+    "hyperterm-tabs",
+    "hyperterm-paste",
+    "hyper-import-sf-mono"
   ],
   "localPlugins": []
 }
