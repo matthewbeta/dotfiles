@@ -18,12 +18,12 @@ alias edge="cd ~/vm/edge && vagrant up"
 alias g="git"
 alias h="history"
 alias j="jobs"
-alias a="atom ."
+alias a="code ."
 alias o="open"
 alias oo="open ."
 alias git=hub
-alias dots="cd ~/dotfiles && atom ."
-alias blog="cd ~/Projects/matthewbeta.github.io && a"
+alias dots="cd ~/dotfiles && code ."
+alias blog="cd ~/Projects/matthewbeta.github.io && code ."
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
