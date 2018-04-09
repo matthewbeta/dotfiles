@@ -10,6 +10,9 @@ export ZSH=/Users/matthew/.oh-my-zsh
 # homebrews should always take precedence
 export PATH=/usr/local/bin:$PATH
 
+# + composer to path
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+
 /usr/bin/ssh-add -A
 
 # Load the shell dotfiles, and then some:
