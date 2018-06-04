@@ -10,8 +10,6 @@ export ZSH=/Users/matthew/.oh-my-zsh
 # homebrews should always take precedence
 export PATH=/usr/local/bin:$PATH
 
-# + composer to path
-export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 /usr/bin/ssh-add -A
 
@@ -107,3 +105,7 @@ PURE_PROMPT_SYMBOL=">"
 
 export NVM_DIR="/Users/matthew/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+
+# + composer to path
+export PATH="$PATH:$HOME/.composer/vendor/bin"
