@@ -1,34 +1,24 @@
-# Install native apps
-brew tap phinze/homebrew-cask
-brew install brew-cask
 
 function installcask() {
-	brew cask install "${@}" 2> /dev/null
+	brew install  --cask "${@}" 2> /dev/null
 }
 
 installcask dropbox
 installcask google-chrome
-installcask google-drive
-installcask google-chrome-canary
 installcask firefox
 installcask gitup
-installcask github
-installcask vagrant
-installcask imagealpha
-installcask alfred
 installcask caffeine
-installcask shiori
 installcask slack
+installcask harvest
+installcask pastebot
+installcask tweetbot
 installcask spotify
-installcask atom
-installcask gyazo
-installcask imageoptim
+installcask visual-studio-code
+installcask sequel-pro
 installcask hyper
 installcask the-unarchiver
-installcask transmission
-installcask virtualbox
+installcask transmit
 installcask vlc
 installcask colorpicker-scala
 installcask cheatsheet
 installcask adobe-creative-cloud
-installcask caskroom/homebrew-cask/objektiv

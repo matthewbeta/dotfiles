@@ -19,7 +19,5 @@ source .macos
 source .macappstore
 # Install global NPM packages
 source .nodemodules
-
-
 ````
 If you need to update anything just run one, some or all again
