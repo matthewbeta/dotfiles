@@ -22,5 +22,26 @@ brew install git-lfs
 brew install imagemagick --with-webp
 brew install ansible
 
+# Install apps
+brew install --cask dropbox
+brew install --cask gitup
+brew install --cask caffeine
+brew install --cask slack
+brew install --cask harvest
+brew install --cask 1password
+brew install --cask pastebot
+brew install --cask tweetbot
+brew install --cask spotify
+brew install --cask visual-studio-code
+brew install --cask sequel-pro
+brew install --cask hyper
+brew install --cask the-unarchiver
+brew install --cask transmit
+brew install --cask vlc
+brew install --cask colorpicker-scala
+brew install --cask cheatsheet
+brew install --cask zoom
+brew install --cask adobe-creative-cloud
+
 # Remove outdated versions from the cellar.
 brew cleanup
