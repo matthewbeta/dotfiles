@@ -1,8 +1,8 @@
 # Dotfiles
 
-1. Update .extra.changeme with your details,
-2. [SSH](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) [Keys](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-3. Install the OSX Command Line tools ```xcode-select --install``` (or go get X Code)
+1. Install the OSX Command Line tools ```xcode-select --install``` (or go get X Code)
+2. Update .extra.changeme with your details,
+3. [SSH](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) [Keys](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 4. then:
 
 ````bash
