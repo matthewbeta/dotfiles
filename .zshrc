@@ -62,12 +62,13 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git node npm atom brew brew-cask extract zsh-syntax-highlighting)
+plugins=(git node npm brew extract)
 
 # User configuration
 
 export PATH="/Users/matthew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export PATH=/Applications/MAMP/Library/bin/:$PATH
+# UNCOMMENT IF USING MAMP
+# export PATH=/Applications/MAMP/Library/bin/:$PATH
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
