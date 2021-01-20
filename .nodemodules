@@ -1,10 +1,8 @@
 #!/bin/bash
 
-packages="grunt-cli a11y dark-mode trash http-server"
-
 echo "Installing NPM Packages..."
 
 # Install packages globally and quietly
-npm install $packages --global --quiet
+npm install grunt-cli trash-cli http-server pure-prompt --global --quiet
 
 [[ $? ]] && echo "Done"
