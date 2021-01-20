@@ -40,6 +40,8 @@ brew install --cask transmit
 brew install --cask vlc
 brew install --cask zoom
 brew install --cask adobe-creative-cloud
+brew install --cask virtualbox
+brew install --cask vagrant
 
 # Remove outdated versions from the cellar.
 brew cleanup
