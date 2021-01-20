@@ -1,9 +1,10 @@
 # Dotfiles
 
 1. Install the OSX Command Line tools ```xcode-select --install``` (or go get X Code)
-2. Update .extra.changeme with your details,
-3. [SSH](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) [Keys](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-4. then:
+2. Sign into the App Store
+3. Update .extra.changeme with your details,
+4. [SSH](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) [Keys](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+5. then:
 
 ````bash
 # To update repo and rsync files to home dir
