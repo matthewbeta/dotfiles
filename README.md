@@ -22,3 +22,13 @@ source .macappstore
 ````
 
 If you need to update anything just run one, some or all again
+
+## Moom
+
+The Moom settings are in a plist file in icloud (on your desktop for now). You'll need to run:
+
+```bash
+defaults import com.manytricks.Moom ~/Desktop/Moom.plist
+```
+
+[More info](https://manytricks.com/osticket/kb/faq.php?id=53)

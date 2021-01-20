@@ -27,10 +27,8 @@ brew install --cask dropbox
 brew install --cask gitup
 brew install --cask caffeine
 brew install --cask slack
-brew install --cask harvest
 brew install --cask 1password
 brew install --cask pastebot
-brew install --cask tweetbot
 brew install --cask spotify
 brew install --cask visual-studio-code
 brew install --cask sequel-pro
@@ -38,7 +36,6 @@ brew install --cask hyper
 brew install --cask the-unarchiver
 brew install --cask transmit
 brew install --cask vlc
-brew install --cask cheatsheet
 brew install --cask zoom
 brew install --cask adobe-creative-cloud
 
