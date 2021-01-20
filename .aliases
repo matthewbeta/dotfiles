@@ -22,7 +22,7 @@ alias a="code ."
 alias o="open"
 alias oo="open ."
 alias git=hub
-alias dots="cd ~/dotfiles && code ."
+alias dots="cd ~/Projects/dotfiles && code ."
 alias blog="cd ~/Projects/matthewbeta.github.io && code ."
 
 # Detect which `ls` flavor is in use
