@@ -21,6 +21,8 @@ brew install hub
 brew install git-lfs
 brew install imagemagick
 brew install ansible
+brew tap shopify/shopify
+brew install themekit
 
 # Install apps
 brew install --cask dropbox
