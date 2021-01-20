@@ -38,7 +38,6 @@ brew install --cask hyper
 brew install --cask the-unarchiver
 brew install --cask transmit
 brew install --cask vlc
-brew install --cask colorpicker-scala
 brew install --cask cheatsheet
 brew install --cask zoom
 brew install --cask adobe-creative-cloud
