@@ -20,4 +20,5 @@ source .macos
 # Install mac apps (requires brew has run and installed [mas](https://git.io/v6yH3))
 source .macappstore
 ````
+
 If you need to update anything just run one, some or all again
