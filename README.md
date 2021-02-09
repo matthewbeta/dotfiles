@@ -8,9 +8,9 @@
 
 ````bash
 # To update repo and rsync files to home dir
-source bootrap.sh
+source bootstrap.sh
 # To install ruby, homebrew, some gems
-source install-deps.sh
+source install-deps.sh # You might need to restart terminal and run nvm install node 
 # To install some things with homebrew
 source .brew
 # Install global NPM packages
