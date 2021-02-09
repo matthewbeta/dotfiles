@@ -23,6 +23,7 @@ brew install imagemagick
 brew install ansible
 brew tap shopify/shopify
 brew install themekit
+brew install gh
 
 # Install apps
 brew install --cask dropbox
